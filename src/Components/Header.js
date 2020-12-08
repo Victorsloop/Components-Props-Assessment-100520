@@ -1,8 +1,9 @@
 import React from "react";
 
 class Header extends React.Component {
-  render() {
-    return <h1>{/*text goes here*/}</h1>;
+  render(text) {
+    text="Hello World"
+    return <h1>{text}</h1>;
   }
 }
 
